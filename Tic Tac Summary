@@ -1,3 +1,13 @@
 With graph cool we can use the playground to run sample queries. Queries are the requests to receive
 data where we can also specify how we want our data formatted. We can also do mutations, which is how we modify existing data.
 One can access the content of index.js by simply providing the directory name.
+
+There's a new syntax for setting state in React
+
+this.setState((prevState, props) => {
+    return {
+        pieceOfState: !prevState.pieceOfState,
+    }
+})
+
+One can export multiple components in a file using export const = AComponent = () => {}

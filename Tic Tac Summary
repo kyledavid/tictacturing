@@ -10,4 +10,5 @@ this.setState((prevState, props) => {
     }
 })
 
-One can export multiple components in a file using export const = AComponent = () => {}
+One can export multiple components in a file using 
+export const = AComponent = () => {}
